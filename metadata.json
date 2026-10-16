@@ -1,0 +1,8 @@
+{
+  "name": "Remix Aahar - Smart Food Operations \u0026 Inventory",
+  "description": "One connected system for smarter food operations. Back-of-house kitchen inventory and waste reduction synchronized with instant customer checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

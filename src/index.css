@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #FFC400;
+  --color-brand-red: #E6392E;
+  --color-brand-vermilion: #E6392E;
+  --color-brand-forest: #133E32;
+  --color-brand-forest-alt: #1B4D3E;
+  --color-brand-forest-hover: #0E2E25;
+  --color-brand-beige: #EADCC8;
+  --color-brand-cream: #FFF7E5;
+  --color-brand-card: #FBF6EE;
+  --color-brand-leaf: #2F6B4F;
+  --font-serif: "DM Serif Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Background canvas dotted pattern */
+.bg-dotted-pattern {
+  background-color: #EADCC8;
+  background-image: radial-gradient(#c5b198 1.4px, transparent 1.4px);
+  background-size: 26px 26px;
+}
+
+/* Organic shape backdrop mimicking hero yellow splash */
+.organic-blob-hero {
+  position: absolute;
+  top: -140px;
+  left: -160px;
+  width: 660px;
+  height: 640px;
+  background-color: #FFC400;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  z-index: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 15px 30px rgba(255, 196, 0, 0.25));
+}
+
+/* Smaller organic yellow highlight behind navigation pill */
+.organic-blob-nav {
+  position: absolute;
+  top: -30px;
+  right: 320px;
+  width: 190px;
+  height: 100px;
+  background-color: #FFC400;
+  border-radius: 50% 50% 45% 55% / 60% 40% 60% 40%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.hero-title {
+  font-family: "DM Serif Display", Georgia, serif;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.shadow-custom-card {
+  box-shadow: 0 20px 45px -10px rgba(78, 51, 16, 0.16), 0 8px 16px -6px rgba(78, 51, 16, 0.08);
+}
+
+.shadow-floating-phone {
+  box-shadow: 0 25px 50px -12px rgba(19, 62, 50, 0.28), 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
